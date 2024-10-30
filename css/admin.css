@@ -1,0 +1,86 @@
+/* Setting page form style */
+#valuation_form{
+	width:98%;
+}
+
+#valuation_form .fullurl{
+	display:none;
+}
+
+/* Setting page table style */
+#valuation_form .form-table th {
+    width: 400px;
+	vertical-align: middle;
+	padding: 10px ;
+}
+
+/* Setting page input style */
+#valuation_form .form-table input[type="text"],
+#valuation_form .form-table input[type="url"],
+#valuation_form .form-table select{ 
+    width: 300px;
+}
+
+/* Setting page input color style */
+#valuation_form .form-table .color-field,
+#valuation_form .form-table .wp-picker-clear {
+	width: auto;
+}
+
+#valuation_form .button-primary {
+    margin-top: 10px;
+    width: 120px;
+}
+
+/* Setting page fieldset section */
+#valuation_form fieldset{
+	border:1px solid #c4c4c4;
+	margin-top:20px;
+}
+#valuation_form legend{
+	margin-left:5px; 
+	padding:0 5px;
+	color:#000000; 
+	font-size: 20px;
+	text-transform:uppercase;
+}
+
+#valuation_form fieldset p {
+    padding: 0 10px;
+    font-size: 16px;
+}
+
+/* Setting page to description section*/
+#valuation_form p.explanation{
+	background:#ffffff;
+	padding:10px;
+}
+
+/* Setting page input section */			
+#valuation_form .form-table tr:nth-child(even) th,
+#valuation_form .form-table tr:nth-child(even) td{background: #DCDCDC}
+#valuation_form .form-table tr:nth-child(odd) th,
+#valuation_form .form-table tr:nth-child(odd) td{background: #FFFFFF}
+
+/* Setting page shortcode section */
+#valuation_form .useshortcode{
+	padding: 10px 25px 30px 11px;
+	font-size: 21px;
+	font-weight: bold;
+}
+
+#valuation_form .useshortcode p{
+	padding-left:0;
+	font-weight: normal;
+}
+
+/* Setting page copyshortcode link section */
+#valuation_form .copyshortcode{
+	font-size: 18px
+}
+
+#valuation_form .copied{
+	font-size: 16px;
+	font-weight: 600;
+	color: green;
+}

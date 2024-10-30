@@ -1,0 +1,45 @@
+/*
+	Responsive css 
+*/
+
+/*====================================================================
+@media only screen and (min-width : 0px) and (max-width : 767px)
+=====================================================================*/
+@media only screen and (min-width : 0px) and (max-width : 767px) {
+	#property-valuation-calculator-wrap .vspinners{
+		display:none;
+	}
+}
+
+/*====================================================================
+@media only screen and (min-width : 575px) and (max-width : 579px)
+=====================================================================*/
+@media only screen and (min-width : 575px) and (max-width : 579px) {
+	#property-valuation-calculator-wrap .value-right label{
+		font-size:14px !important;
+	}
+}
+
+/*====================================================================
+@media only screen and (min-width : 0px) and (max-width : 575px)
+=====================================================================*/
+@media only screen and (min-width : 0px) and (max-width : 575px) {
+	#property-valuation-calculator-wrap .value-right label{
+		font-size:14px !important;
+	}
+	
+	#property-valuation-calculator-wrap .bottom-section>div>div,
+	#property-valuation-calculator-wrap .value-right .item{
+		margin-bottom:10px;
+		text-align: center;
+	}
+}
+
+@media only screen and (max-width : 1024px) {
+    #property-valuation-calculator-wrap input[type=number]::-webkit-inner-spin-button, 
+
+    #property-valuation-calculator-wrap input[type=number]::-webkit-outer-spin-button { 
+      -webkit-appearance: none
+      margin: 0;
+    }
+}
